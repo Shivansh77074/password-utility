@@ -1,8 +1,3 @@
-
-# ============================================================================
-# File: README.md
-# ============================================================================
-"""
 # Secure Password Utility
 
 A professional, enterprise-grade password generator and analyzer built with Python.
