@@ -1,8 +1,3 @@
-
-
-# ============================================================================
-# File: config/settings.py
-# ============================================================================
 """
 Application-wide configuration settings.
 All settings are immutable and security-focused.

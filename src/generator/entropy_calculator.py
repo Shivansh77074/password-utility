@@ -1,7 +1,3 @@
-
-# ============================================================================
-# File: src/generator/entropy_calculator.py
-# ============================================================================
 """
 Entropy calculator for password strength measurement.
 Calculates Shannon entropy and provides security metrics.

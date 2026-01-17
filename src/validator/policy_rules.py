@@ -1,7 +1,3 @@
-
-# ============================================================================
-# File: src/validator/policy_rules.py
-# ============================================================================
 """
 Password policy rules and configuration.
 Defines customizable security policies for web applications.

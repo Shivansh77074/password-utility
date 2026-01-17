@@ -1,8 +1,3 @@
-
-
-# ============================================================================
-# File: src/analyzer/__init__.py
-# ============================================================================
 """Password analysis modules."""
 
 from .password_analyzer import PasswordAnalyzer

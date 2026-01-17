@@ -1,7 +1,3 @@
-
-# ============================================================================
-# File: src/core/constants.py
-# ============================================================================
 """
 Security-focused constants and character sets.
 All values are immutable and cryptographically safe.

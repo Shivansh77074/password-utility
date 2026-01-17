@@ -1,7 +1,3 @@
-
-# ============================================================================
-# File: src/api/routes.py
-# ============================================================================
 """
 API routes for password utility.
 RESTful endpoints with security best practices.

@@ -1,7 +1,3 @@
-
-# ============================================================================
-# File: src/validator/__init__.py
-# ============================================================================
 """Password policy validation modules."""
 
 from .policy_validator import PolicyValidator

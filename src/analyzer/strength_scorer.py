@@ -1,7 +1,3 @@
-
-# ============================================================================
-# File: src/analyzer/strength_scorer.py
-# ============================================================================
 """
 Password strength scoring system.
 Implements comprehensive scoring algorithm based on multiple factors.

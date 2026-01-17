@@ -1,7 +1,3 @@
-
-# ============================================================================
-# File: config/web_settings.py
-# ============================================================================
 """
 Web application configuration.
 Security-focused settings for Flask app.

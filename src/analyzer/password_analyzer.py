@@ -1,7 +1,3 @@
-
-# ============================================================================
-# File: src/analyzer/password_analyzer.py
-# ============================================================================
 """
 Comprehensive password strength analyzer.
 Performs read-only analysis without storing passwords.

@@ -1,7 +1,3 @@
-
-# ============================================================================
-# File: src/core/exceptions.py
-# ============================================================================
 """
 Custom exceptions for password utility.
 Provides clear error messages without exposing sensitive data.

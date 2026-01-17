@@ -1,7 +1,3 @@
-
-# ============================================================================
-# File: src/api/validators.py
-# ============================================================================
 """ 
 Request validators for API endpoints.
 Validates and sanitizes user input.

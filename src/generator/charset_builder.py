@@ -1,8 +1,3 @@
-
-
-# ============================================================================
-# File: src/generator/charset_builder.py
-# ============================================================================
 """
 Character set builder for password generation.
 Constructs character sets based on user options.

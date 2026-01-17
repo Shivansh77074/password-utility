@@ -1,8 +1,3 @@
-
-
-# ============================================================================
-# File: src/analyzer/pattern_detector.py
-# ============================================================================
 """
 Pattern detection for password analysis.
 Detects common weak patterns and security issues.

@@ -1,8 +1,3 @@
-
-
-# ============================================================================
-# File: src/ui/main_window.py
-# ============================================================================
 """
 Main application window.
 Combines generator and analyzer panels into unified interface.

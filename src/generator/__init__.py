@@ -1,7 +1,3 @@
-
-# ============================================================================
-# File: src/generator/__init__.py
-# ============================================================================
 """Password generation modules."""
 
 from .password_generator import PasswordGenerator

@@ -1,7 +1,3 @@
-
-# ============================================================================
-# File: src/analyzer/crack_time_estimator.py
-# ============================================================================
 """
 Crack time estimator for brute-force attack resistance.
 Provides realistic time estimates based on modern attack capabilities.

@@ -1,7 +1,3 @@
-
-# ============================================================================
-# File: src/validator/policy_validator.py
-# ============================================================================
 """
 Password policy validator.
 Validates passwords against configurable security policies.

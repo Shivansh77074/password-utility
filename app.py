@@ -1,7 +1,3 @@
-
-# ============================================================================
-# File: app.py (MODIFIED)
-# ============================================================================
 """
 Flask web application for Secure Password Utility.
 Production-ready with security best practices.

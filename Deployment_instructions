@@ -1,9 +1,4 @@
-
-# ============================================================================
-# DEPLOYMENT INSTRUCTIONS
-# ============================================================================
-"""
-COMPLETE WEB APPLICATION - DEPLOYMENT GUIDE
+# COMPLETE WEB APPLICATION - DEPLOYMENT GUIDE
 ============================================
 
 ## Quick Start
@@ -111,6 +106,3 @@ CMD ["gunicorn", "-w", "4", "-b", "0.0.0.0:5000", "app:app"]
 - Ctrl+D: Toggle theme
 - Ctrl+Enter: Analyze password (in analyzer)
 - Escape: Close modal
-
-"""
-"""
