@@ -1,7 +1,7 @@
 # Secure Password Utility — Project Report
 
 ## Project Title
-Secure Password Utility (Web Application)
+A secure, web-based password generator and analyzer built with Python and Flask. It provides a single-page UI for generating strong passwords, analyzing strength with entropy/pattern detection, and exposing a JSON API for integration. All operations are in-memory only, with no password persistence or logging.
 
 ## Abstract / Overview
 I built a web-based password utility that generates cryptographically secure passwords and analyzes password strength in real time. The application provides a single-page UI with generator and analyzer tabs, backed by a Flask API that performs all security-sensitive logic in memory, with no persistence or logging of password data. The system is designed for secure, fast, and user-friendly password creation and assessment.
