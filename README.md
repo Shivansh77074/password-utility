@@ -1,6 +1,6 @@
 # Secure Password Utility
 
-A professional, enterprise-grade password generator and analyzer built with Python.
+Secure, web-based password generator and analyzer built with Python and Flask. It ships with a single-page UI for generating passwords, analyzing strength (entropy and pattern checks), and a JSON API for integration. All operations run in memory with no password persistence or logging.
 
 ## 🔐 Security Features
 

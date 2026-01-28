@@ -18,6 +18,13 @@ from src.api import api_bp
 from src.api.middleware import add_security_headers
 
 
+limiter = Limiter(
+    key_func=get_remote_address,
+    storage_uri=RATE_LIMIT_STORAGE,
+    default_limits=[RATE_LIMIT_DEFAULT],
+)
+
+
 def create_app():
     """
     Application factory.
@@ -35,20 +42,15 @@ def create_app():
     CORS(app, origins=CORS_ORIGINS, supports_credentials=False)
     
     # Rate Limiting
-    limiter = Limiter(
-        app=app,
-        key_func=get_remote_address,
-        storage_uri=RATE_LIMIT_STORAGE,
-        default_limits=[RATE_LIMIT_DEFAULT]
-    )
-    
-    # Apply specific rate limits to API routes
-    limiter.limit(RATE_LIMIT_GENERATE)(api_bp.route('/generate'))
-    limiter.limit(RATE_LIMIT_GENERATE)(api_bp.route('/generate/bulk'))
-    limiter.limit(RATE_LIMIT_ANALYZE)(api_bp.route('/analyze'))
+    limiter.init_app(app)
     
     # Register blueprints
     app.register_blueprint(api_bp, url_prefix=API_PREFIX)
+
+    # Apply specific rate limits to API endpoints
+    limiter.limit(RATE_LIMIT_GENERATE)(app.view_functions['api.generate_password'])
+    limiter.limit(RATE_LIMIT_GENERATE)(app.view_functions['api.generate_bulk'])
+    limiter.limit(RATE_LIMIT_ANALYZE)(app.view_functions['api.analyze_password'])
     
     # Add security headers to all responses
     app.after_request(add_security_headers)
